@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bona Nova', serif;
+    user-select: none;
+}
+html {
+    overflow-x: initial !important;
+}
+.row{
+    margin-right: 0 !important;
+}
+/* Mid body starts here */
+#home {
+    background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 8px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 75vh;
+    text-align: center;
+    position: relative;
+    margin: 24px 12px 0 12px;
+    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3);
+}
+.container-fluid {
+    padding-right: 66px !important;
+    padding-left: 66px !important;
+}
+.home-wrapper {
+    background: rgba(250, 250, 250, 0.8);
+    padding: 32px 24px;
+    border-radius: 6px;
+    transition: all 0.6s;
+}
+.home-wrapper-dark {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 32px 24px;
+    border-radius: 6px;
+    transition: all 0.6s;
+}
+.home-wrapper h1{
+    font-weight: bold;
+}
+.home-wrapper h3 {
+    font-family: 'Bona Nova', serif;
+    font-weight: 700;
+    letter-spacing:0 !important;
+    font-size: 2rem;
+    color: #909090;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.home-wrapper img {
+    padding-top: 0;
+    margin-top: 0;
+}
+/* center center/cover;
+ */
+.imgtxt {
+    font-family: serif;
+    font-size: 10vw;
+    color: black;
+    position: relative;
+    left: 0px;
+    height: 70vh;
+    top: 10vh;
+    align-self: center;
+    text-shadow: 2px 2px;
+}
+/* Mid body ends here */
+/* here below code is used for the faq section the accordian code uses bootstrap */
+h2 {
+    font-family: 'Bona Nova', serif;
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #091f2f;
+    text-transform: uppercase;
+}
+.faq {
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.panel {
+    border: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    padding: 2px !important;
+}
+.panel-group {
+    margin-bottom: 100px;
+}
+.collapsed {
+    font-family: 'Bona Nova', serif;
+}
+.show,
+.collapse,
+.panel-collapse {
+    padding: 0 24px !important;
+    transition: all 0.4s;
+}
+.map-iframe {
+    border: none !important;
+    border-radius: 12px !important;
+    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3) !important;
+}
+.col-md-offset-1 {
+    margin-left: 0 !important;
+}
+.panel-group .panel-heading+.panel-collapse>.list-group,
+.panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: none !important;
+}
+.accordion-section .panel-default>.panel-heading {
+    border: 0;
+    background: #f4f4f4;
+    padding: 0;
+    position: relative;
+}
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-family: 'Bona Nova', serif;
+    /* font-weight: bold; */
+    
+    font-size: 2rem;
+    padding: 8px;
+    position: relative;
+    text-decoration: none;
+}
+.accordion-section .panel-default .panel-title a:after {
+    font-style: normal;
+    font-size: 2rem;
+    content: "\25b4";
+    float: right;
+    position: relative;
+}
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\25be";
+    position: relative;
+}
+.accordion-section .panel-default .panel-body {
+    font-size: 1.2rem;
+    position: relative;
+}
+.panel-heading {
+    border-radius: 12px;
+}
+.modal-header{
+    display: block !important;
+}
+/* form starts here */
+.forms1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 36px auto;
+}
+.fitems1 {
+    height: auto;
+    width: auto;
+}
+.fitems2 {
+    height: auto;
+    width: auto;
+    padding: 20px
+}
+.fitems3 {
+    min-width: 42%;
+    padding: 0px 20px;
+}
+.fitems3 .lables {
+    font-size: 2rem;
+    margin-top: 25px !important;
+}
+.fitems3 .form-text {
+    margin-bottom: 0;
+}
+h3 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+.fitems3 .arrow-btn {
+    position: relative;
+    outline: none;
+    /* float: right; */
+    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(255, 86, 0, 1) 0%, rgba(255, 0, 146, 1) 100%);
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5px;
+    padding: 10px 12px;
+    text-decoration: none;
+    line-height: 1.5;
+    z-index: 9;
+    width: 100%;
+}
+.fitems3 .arrow-btn::after {
+    content: '';
+    background: inherit;
+    z-index: -1;
+    position: absolute;
+    bottom: -3px;
+    left: 3px;
+    width: 100%;
+    height: 102%;
+    filter: blur(6px);
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+.fitems3 .arrow-btn a {
+    color: #fff;
+}
+.fitems3 .arrow-btn:hover::after {
+    opacity: 1;
+}
+.fitems3 .arrow-btn a:hover,
+.fitems3 .arrow-btn a:active,
+.fitems3 .arrow-btn a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+/*form css*/
+.form-text {
+    border: none;
+    text-align: left !important;
+    outline: none;
+    box-shadow: 0 6px 9px 0 rgba(90, 90, 90, 0.18);
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: box-shadow 0.2s;
+    display: block;
+    width: 100%;
+    line-height: 3.3rem;
+    padding: 6px !important;
+}
+.form-text:hover {
+    box-shadow: 0 12px 18px 0 rgba(90, 90, 90, 0.24);
+    overflow: hidden;
+}
+.form-area {
+    border: none;
+    text-align: left !important;
+    outline: none;
+    box-shadow: 0 9px 12px 0 rgba(90, 90, 90, 0.18);
+    border-radius: 9px;
+    overflow: hidden;
+    background-color: transparent;
+    transition: box-shadow 0.2s;
+    margin: 10px auto;
+    width: 100%;
+    padding: 6px !important;
+}
+.form-area:hover {
+    box-shadow: 0 18px 24px 0 rgba(90, 90, 90, 0.24);
+    overflow: hidden;
+}
+.teachers {
+    align-self: center;
+}
+.teachers a {
+    text-decoration: none;
+    color: rgb(107, 89, 89);
+}
+.home {
+    align-self: center;
+}
+.home a {
+    align-self: center;
+    color: rgb(107, 89, 89);
+}
+.aboutus {
+    align-self: center;
+}
+.aboutus a {
+    color: rgb(107, 89, 89);
+}
+.footertxt {
+    align-self: center;
+    font-family: serif;
+    font-size: 10vw;
+    color: #f4f4f4;
+}
+/* the map section is below */
+.map {
+    padding-top: 4.5rem;
+}
+.mapp {
+    width: 32rem;
+}
+/* refer to the js code to find out what this hidden class does 
+basically intially hides all the classes with hidden name , which are
+outside the viewport when scroll occurs the hidden class is replaced with 
+the corresponding animate.css animation class */
+.hidden {
+    opacity: 0;
+}
+@media only screen and (max-width: 768px) {
+    .map-iframe {
+        width: 100% !important;
+        margin: auto !important;
+    }
+    .container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+.row{
+    margin-right: -15px !important;
+}
+.fitems3 {
+    min-width: 42%;
+    padding: 0;
+}
+.home-wrapper h3{
+    font-size: 1.5rem;
+}
+#home{
+    height: 50vh;
+}
+.home-wrapper h1{
+    font-size: 2.8rem;
+}
+.home-wrapper h3{
+    font-size: 1rem;
+}
+.accordion-section.mt-3 {
+    margin-top: -3rem !important;
+}
+.panel-group {
+    margin-bottom: 13px;
+}
+.forms1 {
+    display: block;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    margin: 36px auto;
+}
+.faq {
+    margin-top: -45px;
+    margin-bottom: 40px;
+}
+}

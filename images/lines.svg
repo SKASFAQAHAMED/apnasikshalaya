@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="60"
+   height="6"
+   viewBox="0 0 60 6"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="lines.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata14">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs12" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="714"
+     id="namedview10"
+     showgrid="false"
+     inkscape:zoom="5.3333333"
+     inkscape:cx="9.0655723"
+     inkscape:cy="6.475539"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg8" />
+  <rect
+     width="25.594"
+     height="1.5"
+     id="rect2"
+     rx="0.56347573"
+     ry="0.56347573"
+     x="0"
+     y="0"
+     style="fill:#909090;fill-opacity:1" />
+  <rect
+     id="Rectangle_1_copy_2"
+     data-name="Rectangle 1 copy 2"
+     x="34.405998"
+     width="25.594"
+     height="1.5"
+     rx="0.48061165"
+     ry="0.48061165"
+     y="0"
+     style="fill:#909090;fill-opacity:1" />
+  <rect
+     id="Rectangle_1_copy"
+     data-name="Rectangle 1 copy"
+     x="27"
+     width="6"
+     height="1.5"
+     rx="0.46403882"
+     ry="0.46403882"
+     y="0"
+     style="fill:#909090;fill-opacity:1" />
+  <rect
+     id="Rectangle_1_copy_3"
+     data-name="Rectangle 1 copy 3"
+     x="13.5"
+     y="4.5"
+     width="25.594"
+     height="1.5"
+     rx="0.5"
+     ry="0.5"
+     style="fill:#909090;fill-opacity:1" />
+  <rect
+     id="Rectangle_1_copy_3-2"
+     data-name="Rectangle 1 copy 3"
+     x="40.5"
+     y="4.5"
+     width="6"
+     height="1.5"
+     rx="0.5"
+     ry="0.5"
+     style="fill:#909090;fill-opacity:1" />
+</svg>

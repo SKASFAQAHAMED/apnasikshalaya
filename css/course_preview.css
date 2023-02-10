@@ -1,0 +1,1287 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:wght@400;700&display=swap');
+
+
+
+*{
+
+    margin: 0;
+
+    padding: 0;
+
+  font-family: 'Bona Nova', serif;
+
+}
+
+.course a{
+
+
+
+  text-decoration: none;
+
+}
+
+.course-iframe {width: 100%; height: auto; min-height: 36vh; border-radius: 12px;}
+
+/* the banner section including the css color box the teacher and the course decription */
+
+.container {
+
+	overflow: hidden;
+
+}
+.container-fluid {
+    padding-right: 66px !important;
+    padding-left: 66px !important;
+}
+.section1 {
+
+	margin-top: 24px;
+
+}
+
+.container13{
+
+    width: 100%;
+
+    min-height: 100vh;
+
+    padding-left: 8%;
+
+    padding-right: 8%;
+
+    box-sizing: border-box;
+
+    overflow: hidden;
+
+}
+
+.row1{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin: 100px 0;
+
+}
+
+.col1{
+
+    flex-basis: 59%;
+
+    position: relative;
+
+}
+
+.section1 h2{
+
+     font-size: 54px;
+
+     position: relative;
+
+     font-size: 3.5rem; 
+
+    
+
+     letter-spacing: -1px;
+
+}
+
+.section1 h3{
+
+    font-size: 2.3rem;
+
+    color: #707070;
+
+    font-weight: 100;
+
+    margin: 20px 0 10px;
+
+}
+
+.section1 p{
+
+    font-size: 16px;
+
+    color: #b7b7b7;
+
+    font-weight: 100;
+
+}
+
+
+
+button img{
+
+    width: 30px;
+
+    display: none;
+
+}
+
+
+
+
+
+.col1::after{
+
+    content: '';
+
+    width: 10px;
+
+    height: 57%;
+
+    background: linear-gradient(to right, #fb5283, rgb(255, 114, 33));
+
+    position: absolute;
+
+    left: -40px;
+
+    top: 8px;
+
+}
+
+.col2{
+
+    position: relative;
+
+    flex-basis: 60%;
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.section1 .teacher{
+
+    width: 84%;
+
+    border-radius: 12px;
+
+}
+
+/* Below is the color box */
+
+.color-box{
+
+    position: absolute;
+
+    right: 0;
+
+    top: 50px;
+
+    background:linear-gradient(to right, #fb5283, rgb(255, 114, 33));
+
+    border-radius: 20px 0 0 20px;
+
+    height: 70%;
+
+    width: 107%;
+
+    z-index: -1;
+
+    transform: translateX();
+
+    clip-path: polygon(0 36%, 50% 35%, 10% 100%, 100% 4%, 59% 17%, 24% 28%);
+
+}
+
+.add-btn img{
+
+    width: 35px;
+
+
+
+}
+
+
+
+/* The banner ends here with the responsiveness */
+
+/* course content */
+
+.course{
+
+
+
+    text-align: center;
+
+}
+
+.course ul{
+
+    text-align: left;
+
+}
+
+.course h1{
+
+    position: relative;
+
+    color: #000;
+
+    font-size: 90px; 
+
+    text-align: left;
+
+    letter-spacing: -1px;
+
+}
+
+.course h2 {
+
+    font-size: 1.8rem;
+
+    text-align: left;
+
+    text-transform: none;
+
+    letter-spacing: 1px;
+
+    font-weight: 600;
+
+    display: block;
+
+    margin: 3px;
+
+    cursor: pointer;
+
+    transition: .2s;
+
+}
+
+.course p {
+
+    color: rgb(92, 87, 87);
+
+    text-align:left;
+
+    
+
+    font-size: 2.5rem;
+
+    line-height: 1.45;
+
+    position: relative;
+
+    overflow: hidden;
+
+    max-height: 250px;
+
+    will-change: max-height;
+
+    contain: layout;
+
+    display: inline-block;
+
+    opacity: 1;
+
+    transform: translate(0,0);
+
+    margin-top: 5px;
+
+    margin-bottom: 0 50px 0 15px;
+
+    transition: .3s opacity, .6s max-height;
+
+    hyphens: auto;
+
+    z-index: 2;
+
+} 
+
+.acc{
+
+  width: 22px;
+
+  
+
+  
+
+}
+
+.accv{
+
+  width: 16px;
+
+}
+
+.course a {
+
+    color: #000;
+
+    text-align:left;
+
+    font-size: 1rem;
+
+    position: relative;
+
+    overflow: hidden;
+
+    max-height: 250px;
+
+    will-change: max-height;
+
+    display: inline-block;
+
+    opacity: 1;
+
+    transform: translate(0,0);
+
+    margin-top: 5px;
+
+    margin-bottom: 0 50px 0 15px;
+
+    transition: .3s opacity, .6s max-height;
+
+    hyphens: auto;
+
+    z-index: 2;
+
+}
+
+
+
+
+
+.course ul{
+
+    list-style: none;
+
+    perspective: 900;
+
+    padding: 0;
+
+    margin: 0;
+
+    border-radius: 12px;
+
+}
+
+.course ul li {
+
+     color: #000;
+
+    position: relative;
+
+    overflow: hidden;
+
+    padding: 12px;
+
+    margin: 0;
+
+    background: #f4f4f4;
+
+    border-radius: 12px;
+
+    
+
+    -webkit-tap-highlight-color: transparent;
+
+    border-radius: 12px;
+
+  
+
+}
+
+/* below class is used to give the gap between the individual lessons */
+
+.course ul li + li {
+
+    margin-top: 15px;
+
+}
+
+.course ul li i {
+
+    position: absolute;
+
+    padding-top: 6px;
+
+    transform: translate(-6px 0);
+
+    right: 15px;
+
+}
+
+.course ul li::before,
+
+.course ul li::after{
+
+    content: '';
+
+    position: absolute;
+
+    background-color: rgb(255, 255, 255);
+
+    width: 3px;
+
+    height: 9px;
+
+}
+
+.course ul li::before{
+
+    transform: translate(-2px, 0) rotate(45deg);
+
+}
+
+.course ul li::after{
+
+    transform: translate(-2px, 0) rotate(45deg);
+
+}
+
+.course ul li input[type = checkbox]{
+
+    position: absolute;
+
+    cursor: pointer;
+
+    width: 100%;
+
+    height: 100%;
+
+    z-index: 1;
+
+    opacity: 0;
+
+    touch-action: manipulation;
+
+}
+
+.course ul li input[type = checkbox]:checked ~ i img.accv{
+
+  display: none;
+
+  transition: 1s;
+
+}
+
+.course ul li input[type = checkbox]:not(:checked) ~ i img.acc{
+
+  display: none;
+
+  transition: 1s;
+
+}
+
+
+
+
+
+.course ul li input[type = checkbox]:checked ~ a {
+
+    margin: 0;
+
+    max-height: 0;
+
+    transition: .3s;
+
+    opacity: 0;
+
+}
+
+.course ul li input[type = checkbox]:checked ~ i::before{
+
+    transform: translate(-2px, 0);
+
+    
+
+}
+
+
+
+/* The accordian section or the course content ends here */
+
+
+
+
+
+/* the video card starts here */
+
+
+
+.btn {
+
+	margin: 0 12px !important;
+
+}
+
+.container2{
+
+    display: flex;
+
+    flex-direction: row;
+
+  padding-right: 66px !important;
+    padding-left: 66px !important;
+
+    margin: auto;
+
+}
+
+/* the below container is the cool card contianer with the video preview */
+
+.container1{
+
+    margin: 4px auto;
+
+  }
+
+  
+
+  .card {
+
+    border-radius: 24px;
+
+    width: 460px;
+
+    box-shadow: 0 16px 22px 0 rgba(90, 91, 95, 0.3) !important;
+
+    margin-top: 50px;
+
+  }
+
+  
+
+  .card-head {
+
+    position: relative;
+
+ 
+
+  padding: 20px;
+
+    background: #fa782e;
+
+    /* Old browsers */
+
+    background: -moz-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+
+    /* FF3.6-15 */
+
+    background: -webkit-linear-gradient(-45deg, #fa782e 8%, #c82930 83%);
+
+    /* Chrome10-25,Safari5.1-6 */
+
+    background: linear-gradient(135deg, #fa782e 8%, #c82930 83%);
+
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+    filter: progid: DXImageTransform.Microsoft.gradient startColorstr='#fa782e', endColorstr='#c82930', GradientType=1;
+
+    /* IE6-9 fallback on horizontal gradient */
+
+    border-radius: 25px 25px 0 0;
+
+  }
+
+  
+
+  .card-logo {
+
+    width: 55px;
+
+    margin: 20px;
+
+  }
+
+  .card-body {
+
+  	padding-bottom: 12px;
+
+  }
+
+  .product-img {
+
+    position: absolute;
+
+    left: 0;
+
+    margin-top: -16px;
+
+    margin-left: 50px;
+
+  }
+
+  
+
+  .product-detail {
+
+   
+
+    color: #fff;
+
+  }
+
+  
+
+ 
+
+  
+
+  .back-text {
+
+    display: inline-block;
+
+    font-size: 125px;
+
+    font-weight: 900;
+
+    margin-left: -7px;
+
+    margin-top: -12px;
+
+    opacity: 0.1;
+
+  }
+
+  .product-desc{
+
+    text-align: left !mportant;
+
+    padding: 12px;
+
+  }
+
+  .product-title {
+
+    display: block;
+
+    font-size: 2rem;
+
+    font-weight: 500;
+
+    letter-spacing: 1px;
+
+    margin-top: 10px;
+
+  }
+
+
+
+    .product-desc p {
+
+    margin: 0 0 10px;
+
+    font-size: 1.6rem;
+
+    padding: 5px;
+
+  }
+
+
+
+  .badge {
+
+    position: relative;
+
+    font-size: 1.2rem;
+
+    font-weight: 900;
+
+    color: #fff;
+
+    background: tomato;
+
+   
+
+    height: 2.4rem;
+
+    padding: 4px 6px;
+
+    line-height: normal !important;
+
+    border-radius: 4px;
+
+    top: -3px;
+
+    margin-left: 5px;
+
+  }
+
+  
+
+  .product-caption {
+
+ 
+
+    font-size: 1.6rem;
+
+    font-weight: 400;
+
+    display: flex;
+
+     margin-left: 5px;
+
+  }
+
+  .product-caption a {
+
+    margin-left: 5px;
+
+}
+
+  
+
+  .update-date{
+
+font-size: 1.8rem;
+
+  }
+
+  .product-rating i.grey {
+
+    color: #acacab;
+
+  }
+
+  
+
+  .product-size h4 {
+
+    font-size: 11px;
+
+    padding: 0 21px;
+
+    margin-top: 15px;
+
+    padding-bottom: 10px;
+
+    text-transform: uppercase;
+
+  }
+
+  
+
+  .product-properties{
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      padding: 0 12px 12px 12px;
+
+  }
+
+
+
+  .ul-size {
+
+   margin-bottom: 0 !important;
+
+    display: flex;
+
+    justify-content:space-evenly;
+
+  }
+
+  
+
+  .ul-size li {
+
+    list-style: none;
+
+    float: left;
+
+    margin-right: 20px;
+
+  }
+
+  
+
+  .ul-size li a {
+
+    display: inline-block;
+
+    text-decoration: none;
+
+    font-size: 11px;
+
+    width: 22px;
+
+    height: 22px;
+
+    border-radius: 100%;
+
+    text-align: center;
+
+    line-height: 23px;
+
+    color: #000;
+
+  }
+
+  
+
+  .ul-size li a.active {
+
+    background: #f35e3d;
+
+    color: #fff;
+
+  }
+
+  
+
+  .product-size:before,
+
+  .product-size:after {
+
+    content: '';
+
+    display: block;
+
+    clear: both;
+
+  }
+
+  
+
+  .product-color h4 {
+
+    font-size: 11px;
+
+    padding: 0 21px;
+
+    margin-top: 20px;
+
+    padding-bottom: 20px;
+
+    text-transform: uppercase;
+
+  }
+
+  
+
+  .ul-color {
+
+    margin-left: 27px;
+
+  }
+
+  
+
+  .ul-color li {
+
+    list-style: none;
+
+    float: left;
+
+    margin-right: 20px;
+
+  }
+
+  
+
+  .ul-color li a {
+
+    display: inline-block;
+
+    width: 16px;
+
+    height: 16px;
+
+    border-radius: 100%;
+
+  }
+
+  
+
+  .ul-color li a.orange {
+
+    background: #f35e3d;
+
+  }
+
+  
+
+  .ul-color li a.green {
+
+    background: #11e95b;
+
+  }
+
+  
+
+  .ul-color li a.yellow {
+
+    background: #ffd414;
+
+  }
+
+  
+
+  .ul-color li a.active:after {
+
+    position: absolute;
+
+    content: '';
+
+    display: inline-block;
+
+    border: 1px solid #f35e3d;
+
+    width: 24px;
+
+    height: 24px;
+
+    border-radius: 100%;
+
+    margin-left: -5px;
+
+    margin-top: -5px;
+
+  }
+
+  
+
+  #product-p {
+
+    display: inline-block;
+
+    font-size: 3rem;
+
+    font-weight: 900;
+
+  }
+
+  
+
+  .product-price b {
+
+    margin-left: 5px;
+
+  }
+
+.vid{
+
+    width: 100%;
+
+  
+
+    border-radius: 12px;
+
+}
+
+
+
+
+
+/* the cool card section ends here */
+
+
+
+/* User reviews section starts here*/
+
+
+
+.testimonial-container {
+
+    background-color: #e76363;
+
+    color: #fff;
+
+    border-radius: 15px;
+
+    margin: 60px auto;
+
+    padding: 48px 78px;
+
+    max-width: 768px;
+
+    position: relative;
+
+  }
+
+  
+
+  .fa-quote {
+
+    color: rgba(255, 255, 255, 0.3);
+
+    font-size: 28px;
+
+    position: absolute;
+
+    top: 70px;
+
+  }
+
+  
+
+  .fa-quote-left {
+
+    left: 40px;
+
+  }
+
+  
+
+  .fa-quote-right {
+
+    right: 40px;
+
+  }
+
+  
+
+  .testimonial {
+
+    line-height: 28px;
+
+    text-align: justify;
+
+  }
+
+  
+
+  .user {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+  }
+
+  
+
+  .user .user-image {
+
+    border-radius: 50%;
+
+    height: 75px;
+
+    width: 75px;
+
+    object-fit: cover;
+
+  }
+
+  
+
+  .user .user-details {
+
+    margin-left: 10px;
+
+  }
+
+  
+
+  .user .username {
+
+    margin: 0;
+
+  }
+
+  
+
+  .user .role {
+
+    font-weight: normal;
+
+    margin: 10px 0;
+
+  }
+
+  
+
+  .progress-bar {
+
+    background-color: #fff;
+
+    height: 4px;
+
+    width: 100%;
+
+    transform-origin: left;
+
+    animation: grow 10s linear infinite;
+
+    margin-top: 20px;
+
+  }
+
+  
+
+  /* Making the testimonial section responsive */
+
+  @keyframes grow {
+
+    0% {
+
+      transform: scaleX(0);
+
+    }
+
+  }
+
+  /* making the banner responsive */
+
+/* The color box behind the image of the teacher */
+
+
+
+  @media (max-width: 768px) {
+
+  .section1 {
+
+  	display: flex !important;
+
+  	flex-direction: column-reverse !important;
+
+  }
+.container-fluid {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+}
+  .section1 h2 {
+
+  	font-size: 3rem;
+
+  } .section1 h3 {
+
+  	font-size: 2rem;
+
+  } .section1 p {
+
+  	font-size: 1rem;
+
+  }
+
+  .row1{
+
+        flex-direction: column-reverse;
+
+        margin: 50px 0;
+
+    }
+
+    .col2{
+
+        flex-basis: 100%;
+
+        margin-bottom: 50px;
+
+    }
+
+    .col2 .teacher{
+
+        width: 77%;
+
+
+
+    }
+
+    .color-box{
+      
+        top: 23px;
+
+        background: linear-gradient(to right, #fb5283, rgb(255, 114, 33));
+
+        border-radius: 20px 0 0 20px;
+
+        height: 89%;
+
+        width: 115%;
+
+    }
+
+.start-graphic{
+  display: flex;
+  justify-content: center;
+}
+
+    .col1{
+
+        flex-basis: 100%;  
+
+    }
+
+    .col1 h2{
+
+        font-size: 35px;
+
+    }
+
+    .col1 h3{
+
+        font-size: 15px;
+
+    }
+
+    
+
+      .container2{
+
+    display: flex;
+
+    flex-direction: column-reverse;
+
+    margin-left: 1px;
+
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+
+  }
+
+  .course{
+    margin-top: 15px;
+    margin-left: 0px;
+
+  }
+
+  .course h1{
+
+    font-size: 40px;
+
+  }
+
+  .container1{
+
+   margin: o;
+
+    margin-top: 0;
+
+  }
+
+.testimonial-container {
+    margin: 15px;
+    padding: 12px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+  
+
+    .fa-quote {
+
+      display: none;
+
+    }
+
+    .card{
+
+      width: auto;
+
+    }
+
+  }
+
+
+
+
+
+
+
+  
+

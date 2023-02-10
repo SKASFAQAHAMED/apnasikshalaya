@@ -1,0 +1,40 @@
+
+#home::before{
+  content: "";
+  position: absolute;
+  background: url(/Images/mid.jpg);
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
+  min-height: 114%;
+  background-position: revert;
+  }
+  .imgtxt{
+    color: whitesmoke;
+    font-size: 22vw;
+    height: 35vh;
+  }
+  
+  .footer::before{
+    content: "";
+    position: absolute;
+    background: url('/Images/footer.jpg') no-repeat center center/cover;
+    width: 100%;
+    z-index: -1;
+    opacity:0.89;
+    height: 420px;
+  }
+  .forms{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+  }
+ .accordion-section.mt-3{
+  margin-top: 9rem!important;
+ }
+ .mapp{
+  width: 27rem;
+}
+

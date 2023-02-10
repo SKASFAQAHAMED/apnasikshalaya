@@ -1,0 +1,125 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+  font-family: 'Bona Nova', serif;
+  user-select: none;
+}
+.container-fluid {
+    padding-right: 66px !important;
+    padding-left: 66px !important;
+}
+.arrow-btn {
+    position: relative;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(255,86,0,1) 0%, rgba(255,0,146,1) 100%);
+    border: none;
+    border-radius: 6px;
+    color: #ffffff;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 32px;
+    padding: 6px 12px;
+    text-decoration: none;
+    line-height: 1.5;
+    z-index: 9;
+}
+.arrow-btn:hover{
+    text-decoration: none;
+}
+.other_sec button{
+    width: 100%;
+   margin-top: 0 !important;
+}
+hr{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+.thumb_img{
+    padding: 70px;
+    padding-top: 30px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.thumb_img img{
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 16px 22px 0 rgb(90 91 95 / 30%);
+}
+.tution_desc{
+    width: 95%;
+    
+}
+.tution_desc h2{
+    margin-top: 15px;
+    color: #1c6db4;
+}
+.tution_desc p{
+    font-size: 1.3rem;
+}
+.tution_sec{
+    margin-top: 25px;
+   
+}
+.teacher-sec{
+    margin-top: 30px;
+  
+}
+.other_sec{
+    margin-top: 30px;
+  
+}
+.price{
+   display: flex;
+   align-items: center;
+}
+.price i{
+    padding-left: 10px;
+    padding-top: 6px;
+    /* margin-top: 10px; */
+    font-weight: 400;
+}
+.price span{
+    font-size: 2rem;
+    margin-top: -10px !important;
+    /* padding-top: 0 !important;*/
+}
+
+@media (max-width: 768px) {
+    .container-fluid {
+        padding-right: 15px !important;
+        padding-left: 15px !important;
+    }
+
+    .thumb_img {
+        padding: 0px;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .thumb_img img{
+        width: 100%;
+        border-radius: 12px;
+        box-shadow: 0 6px 16px 0 rgb(90 91 95 / 30%);
+    }
+    .tution_desc {
+        width: 100%;
+    }
+    .price span {
+        font-size: 1.5rem;
+        margin-top: -10px !important;
+        /* padding-top: 0 !important; */
+    }
+    .other_sec button{
+        width: 100%;
+       margin-top: 0 !important;
+       margin-bottom: 10px !important;
+    }
+}
